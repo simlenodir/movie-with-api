@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies with API</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container ">
+        <div class="loadingio-spinner-spinner-zfsr6ffk6mbv js-loader">
+            <div class="ldio-j3y7okyvrsj">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <h2 class="title-doc text-center my-5" style="color:rgb(51, 96, 51) ;">MOVIES WITH API</h2>
+        <form class=" d-flex justify-content-around search-form">
+            <input type="text" class="search-input form-control w-50">
+            <button class="btn btn-primary">search movie</button>
+        </form>
+        <ul class="list-unstyled js_list d-flex flex-wrap justify-content-between">
+            <template id="card-templete">
+                <div class="card my-2 text-center" style="width: 17rem; height: 650px;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text text-truncate">Some quick example text to build on the card title and make
+                            up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </template>
+        </ul>
+        <div class=" btn_wrapper d-flex justify-content-around my-5">
+            <button type="button" class="prev btn btn-primary" >prev</button>
+            <button type="button" class="current btn btn-secondary" >current</button>
+            <button type="button" class="next btn btn-primary" >next</button>
+        </div>
+      
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
